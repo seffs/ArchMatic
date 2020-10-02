@@ -7,9 +7,17 @@
 #  Arch Linux Post Install Setup and Config
 #-------------------------------------------------------------------------
 
+#CREAR USUARIO PRIMERO Y CORRER DESDE AHI
+#pacman -S vi
+#visudo
+#uncomment %wheel ALL=(ALL) ALL
+#useradd -m -G wheel -s /bin/bash seff
+#passwd seff
+
 echo -e "\nINSTALLING AUR SOFTWARE\n"
 
 cd "${HOME}"
+
 
 echo "CLOING: YAY"
 git clone "https://aur.archlinux.org/yay.git"
@@ -20,13 +28,13 @@ PKGS=(
     # UTILITIES -----------------------------------------------------------
 
     'i3lock-fancy'              # Screen locker
-    'synology-drive'            # Synology Drive
-    'freeoffice'                # Office Alternative
+    #'synology-drive'            # Synology Drive
+    #'freeoffice'                # Office Alternative
     
     # MEDIA ---------------------------------------------------------------
 
-    'screenkey'                 # Screencast your keypresses
-    'lbry-app-bin'              # LBRY Linux Application
+    #'screenkey'                 # Screencast your keypresses
+    #'lbry-app-bin'              # LBRY Linux Application
 
     # COMMUNICATIONS ------------------------------------------------------
 

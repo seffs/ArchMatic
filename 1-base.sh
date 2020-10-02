@@ -50,20 +50,22 @@ PKGS=(
         'pavucontrol'       # Pulse Audio volume control
         'pnmixer'           # System tray volume control
 
+
+    # I don't need this
     # --- Bluetooth
-        'bluez'                 # Daemons for the bluetooth protocol stack
-        'bluez-utils'           # Bluetooth development and debugging utilities
-        'bluez-firmware'        # Firmwares for Broadcom BCM203x and STLC2300 Bluetooth chips
-        'blueberry'             # Bluetooth configuration tool
-        'pulseaudio-bluetooth'  # Bluetooth support for PulseAudio
+    #    'bluez'                 # Daemons for the bluetooth protocol stack
+    #    'bluez-utils'           # Bluetooth development and debugging utilities
+    #    'bluez-firmware'        # Firmwares for Broadcom BCM203x and STLC2300 Bluetooth chips
+    #    'blueberry'             # Bluetooth configuration tool
+    #    'pulseaudio-bluetooth'  # Bluetooth support for PulseAudio
     
     # --- Printers
-        'cups'                  # Open source printer drivers
-        'cups-pdf'              # PDF support for cups
-        'ghostscript'           # PostScript interpreter
-        'gsfonts'               # Adobe Postscript replacement fonts
-        'hplip'                 # HP Drivers
-        'system-config-printer' # Printer setup  utility
+    #    'cups'                  # Open source printer drivers
+    #    'cups-pdf'              # PDF support for cups
+    #    'ghostscript'           # PostScript interpreter
+    #    'gsfonts'               # Adobe Postscript replacement fonts
+    #    'hplip'                 # HP Drivers
+    #    'system-config-printer' # Printer setup  utility
 )
 
 for PKG in "${PKGS[@]}"; do

@@ -92,15 +92,15 @@ PKGS=(
 
     # MEDIA ---------------------------------------------------------------
 
-    'kdenlive'              # Movie Render
-    'obs-studio'            # Record your screen
-    'celluloid'             # Video player
+    #'kdenlive'              # Movie Render
+    #'obs-studio'            # Record your screen
+    #'celluloid'             # Video player
     
     # GRAPHICS AND DESIGN -------------------------------------------------
 
     'gcolor2'               # Colorpicker
     'gimp'                  # GNU Image Manipulation Program
-    'ristretto'             # Multi image viewer
+    #'ristretto'             # Multi image viewer
 
     # PRODUCTIVITY --------------------------------------------------------
 
